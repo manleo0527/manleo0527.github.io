@@ -1,0 +1,123 @@
+*{margin:0 auto; padding:0; }
+body{
+    font-size:12px;
+    line-height:26px;
+    color:#333333;
+    font-family: "微软雅黑";
+
+}
+a:link {
+    color: #000000;
+    text-decoration: none;
+    font-size:12px;
+}
+a:visited {
+    color: #333333;
+    text-decoration: none;
+    font-size:12px;
+}
+a:hover {
+    color: #000000;
+    text-decoration: none;
+    font-size:12px;
+}
+a:active {
+    text-decoration: none;font-size:12px;
+}
+.pading{padding:10px}
+.aa{
+    font-size:16px;
+    color:#FF0000;
+    line-height:26px;
+    font-family: "微软雅黑";
+    letter-spacing: 0px;
+}
+
+.ac{
+    font-size:24px;
+    color:#FF0000;
+    line-height:26px;
+    font-family: "微软雅黑";
+    letter-spacing: 0px;
+}
+
+.bb{
+    font-size:14px;
+    color:#000000;
+    line-height:24px;
+    font-family: "微软雅黑";
+}
+
+.an:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:12px;
+    font-family: "微软雅黑";
+}
+.an:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:12px;
+    font-family: "微软雅黑";
+}
+.an:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:12px;
+    font-family: "微软雅黑";
+}
+.an:active {
+    text-decoration: none;
+    font-size:12px;
+    font-family: "微软雅黑";
+}
+.a1:link {
+    color: #000000;
+    text-decoration: none;
+    font-size:14px;
+    font-family: "微软雅黑";
+}
+.a1:visited {
+    color:#000000;
+    text-decoration: none;
+    font-size:14px;
+    font-family: "微软雅黑";
+}
+.a1:hover {
+    color: #000000;
+    text-decoration: none;
+    font-size:14px;
+    font-family: "微软雅黑";
+}
+.a1:active {
+    text-decoration: none;
+    font-size:14px;
+    font-family: "微软雅黑";
+    color: #000000;
+}
+.a2:link {
+    color: #FF0000;
+    text-decoration: none;
+    font-size:14px;
+}
+.a2:visited {
+    color:#FF0000;
+    text-decoration: none;
+    font-size:14px;
+}
+.a2:hover {
+    color: #FF0000;
+    text-decoration: none;
+    font-size:14px;
+}
+.zi {
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.a2:active {
+    text-decoration: none;
+    font-size:14px;
+}
