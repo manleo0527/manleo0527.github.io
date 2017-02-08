@@ -121,3 +121,67 @@ a:active {
     text-decoration: none;
     font-size:14px;
 }
+
+.banner .inner{
+    height: 0;
+}
+.inner{
+    width: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner , .banner-mask{
+    overflow: hidden;
+    width: 100%;
+    height: 360px;
+    min-width: 1002px;
+}
+.page-ul{
+    position: relative;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+}
+.banner .banner-li{
+    float: left;
+    display: block;
+    width: 33.333333%;
+    height: 100%;
+}
+.banner .banner-1{
+    background: url(../images/banner/1.jpg) 50% 50% no-repeat;
+}
+.banner .banner-2{
+    background: url(../images/banner/1.jpg) 50% 50% no-repeat;
+}
+.banner .banner-3{
+    background: url(../images/banner/2.jpg) 50% 50% no-repeat;
+}
+
+.colums{
+    position: absolute;
+    top: -30px;
+}
+.colum-li{
+    position: relative;
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    border: 2px solid #055a86;
+    border-radius: 50%;
+    margin-left: 2px;
+    text-align: center;
+    
+}
+.colum-li.active{
+    box-shadow: 0 0 30px #055a86;
+    background-color: #f55100;
+}
+.main-img{
+    width: 100%;
+    margin: 65px 0 145px 0;
+}
+.main-img img{
+    width: 100%;
+    margin: 0 auto;
+}

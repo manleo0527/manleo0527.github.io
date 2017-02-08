@@ -2,48 +2,103 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="baidu-site-verification" content="NKgTNn9Y0k" />
-    <title>佛山市南海区鹏森机械厂::工必利刀片</title>
-    <meta name="keywords" content="工必利刀片，刀片品牌，最好的刀片品牌，好的刀片，工必利，鹏森机械厂，佛山市南海区，机械刀片" />
-    <meta name="description" content="佛山市南海区鹏森机械厂，工必利刀片，最好的刀片品牌，机械刀片" />
+    <title>佛山市南海区鹏森机械厂</title>
+    <meta name="keywords" content="工必利刀片" />
+    <meta name="description" content="佛山市南海区鹏森机械厂" />
     <link href="css/css.css" rel="stylesheet" type="text/css" />
     <!-- <link rel="stylesheet" type="text/css" href="css/jquery.jslides.css" media="screen" /> -->
     <!-- <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script> -->
     <!-- <script type="text/javascript" src="js/jquery.jslides.js"></script> -->
     <style type="text/css">
         .welcome{
-            color: #0000cc
+            color: #fff;
         }
+        .menu td{
+            text-align: center;
+            height: 36px;
+        }
+        .menu td a{
+            font-size: 18px;
+        }
+        .menu td a:hover{
+          text-decoration: underline;
+        }
+
     </style>
 
     <body>
         <table width="100%" height="131" border="0" cellpadding="0" cellspacing="0">
           <tr>
-            <td height="131" background="images/banner/3.jpg"><table width="1002" border="0" cellpadding="0" cellspacing="0">
+            <td height="131" background="images/banner/middle.jpg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td height="25"><marquee class="zi">
                     <p class="welcome">欢迎浏览本网站</p>
                 </marquee></td>
             </tr>
             <tr>
-              <td><img src="images/banner/3.jpg" width="1902" height="250" /></td>
+              <td><img src="images/banner/3.jpg" width="100%" height="250" style="min-width:1349px"/></td>
           </tr>
           <tr>
-              <td><img src="images/banner/middle.jpg" width="1902" height="28" /></td>
+              <td><img src="images/banner/middle.jpg" width="100%" height="28" /></td>
           </tr>
       </table></td>
   </tr>
 </table>
-
+<div id="banner" class="banner">
+    <div class="page-ul" style="width:300%;">
+      
+        <div class="banner-li banner-1">
+          <a href="" title="" target="_blank"></a>
+        </div>
+      
+      
+        <div class="banner-li banner-2">
+          <a href="" title="" target="_blank"></a>
+        </div>
+      
+      
+    </div>
+    <div class="inner">
+      <div class="colums">
+        
+          <div class="colum-li colum-1 active"></div>
+        
+        
+          <div class="colum-li colum-2"></div>
+        
+      </div>
+    </div>
+  </div>
 <table width="1002" height="795" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="248" valign="top"><table width="100" border="0" cellspacing="0" cellpadding="0">
+    <td width="248" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td height="14"></td>
       </tr>
 
       <tr>
-          <td width="225" class="zi"><img src="images/other/1.jpg" width="248" height="600" /></td>
+          <td width="248" height="600" class="menu" background="images/other/1.jpg" style="background-size:100% 100%;vertical-align: top;padding-top: 60px;">
+            <table width="208" height="20">
+              <tr>
+                <td><a href="">个人名片</a></td>
+              </tr>
+              <tr>
+                <td><a href="">公司介绍</a></td>
+              </tr>
+              <tr>
+                <td><a href="">企业资质</a></td>
+              </tr>
+              <tr>
+                <td><a href="">实地采图</a></td>
+              </tr>
+              <tr>
+                <td><a href="">系列产品</a></td>
+              </tr>
+              <tr>
+                <td><a href="">展会风采</a></td>
+              </tr>
+            </table>
+          </td>
       </tr>
   </table>
   <table width="248" height="120" border="0" cellpadding="0" cellspacing="0">
@@ -51,7 +106,7 @@
         <td width="225" valign="top" background="images/other/2.jpg">
         </td>
     </tr>
-</table>       
+</table>
 
 
 <table width="248" height="141" border="0" cellpadding="0" cellspacing="0">
@@ -66,13 +121,15 @@
 <td width="11" valign="top">&nbsp;</td>
 <td width="738" valign="top"><table width="724" height="230" border="0" cellpadding="0" cellspacing="0">
     <tr>
-      <td width="416" height="230" align="left" valign="top">
+      <td width="33%" height="230">
+        <img src="images/presentation/1.jpg" alt="" width="200" height="200"/>
       </td>
-      <td width="278" align="left" valign="top"><table width="100" border="0" cellspacing="0" cellpadding="0">
-
-      </table>
-
-  </td>
+      <td width="33%" height="230">
+        <img src="images/presentation/1.jpg" alt="" width="200" height="200"/>
+      </td>
+      <td width="33%" height="230">
+        <img src="images/presentation/1.jpg" alt="" width="200" height="200"/>
+      </td>
 </tr>
 </table>
 
@@ -97,4 +154,39 @@
         </table>
 
 </body>
+<script src="js/jquery-1.8.0.min.js"></script>
+<script>
+  (function(){
+    var colum_li=$(".colums .colum-li");
+    var len = colum_li.length;
+      var index = 0;  
+      var adTimer;
+      colum_li.mouseover(function() {
+          index = colum_li.index(this);  
+          showImg(index);
+      }).eq(0).mouseover();
+      
+      $('#banner').hover(function() {
+          clearInterval(adTimer);
+      }, function() {
+          adTimer = setInterval(function() {
+              showImg(index)
+              index++;
+              if (index == len) {       
+                  index = 0;
+              }
+          }, 3000);
+      }).trigger("mouseleave");
+      function showImg(index) {
+          var adWidth = $("#banner > .page-ul > .banner-li:first").width();
+          $(".page-ul").stop(true, false).animate({
+              "marginLeft": -adWidth * index + "px"   
+          }, 1000);
+          colum_li.removeClass("active").eq(index).addClass("active");
+          colum_li.children().removeClass('active');
+          colum_li.eq(index).children().addClass('active');
+      }
+    })();
+  
+</script>
 </html>
