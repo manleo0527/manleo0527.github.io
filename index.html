@@ -39,9 +39,9 @@
     <body>
         <table width="100%" height="131" border="0" cellpadding="0" cellspacing="0">
           <tr>
-            <td height="131" background="images/banner/middle.jpg"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <td height="131"><table width="100%" border="0" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td height="25"><marquee class="zi">
+                  <td height="25" style="background-color: #7b7b7b;"><marquee  width="1002" class="zi">
                     <p class="welcome">欢迎浏览本网站</p>
                 </marquee></td>
             </tr>
@@ -49,7 +49,7 @@
               <td><img src="images/banner/3.jpg" width="100%" height="250"/></td>
           </tr>
           <tr>
-              <td><img src="images/banner/middle.jpg" width="100%" height="28" /></td>
+              <td height="25" style="background-color: #7b7b7b;"></td>
           </tr>
 
       </table></td>
@@ -163,7 +163,12 @@
             </td>
             </tr>
         </table>
-
+</table>
+        <div class="mask"></div>
+        <div class="pic">
+          <span>X</span>
+          <img src="" alt="" width="100%" height="600"/>
+        </div>
 </body>
 <script src="js/jquery-1.8.0.min.js"></script>
 <script>
@@ -201,7 +206,7 @@
 
       introduction();
     })();
-  
+
     //公司介绍
     function introduction(){
       $("#sel_btn1").addClass("ch_cls");
@@ -234,6 +239,7 @@
       html = html + "<td width='33%' height='230'><img src='images/credentials/3.jpg' alt='' width='210' height='200'/></td>";
       html = html + "</tr>";
       $("#activeImages").html(html);
+      showImg();
     }
 
     //系列产品
@@ -260,6 +266,7 @@
       html = html + "<td width='33%' height='230'><img src='images/productList/7.jpg' alt='' width='210' height='200'/></td>";
       html = html + "</tr>";
       $("#activeImages").html(html);
+      showImg();
     }
 
     //展会风采
@@ -287,6 +294,7 @@
       html = html + "<td width='33%' height='230'><img src='images/presentation/8.jpg' alt='' width='210' height='200'/></td>";
       html = html + "</tr>";
       $("#activeImages").html(html);
+      showImg();
     }
 
     //实地采图
@@ -311,10 +319,9 @@
       html = html + "</tr>";
       html = html + "<tr>";
       html = html + "<td width='33%' height='230'><img src='images/photoCollection/7.jpg' alt='' width='210' height='200'/></td>";
-      html = html + "<td width='33%' height='230'><img src='images/photoCollection/8.jpg' alt='' width='210' height='200'/></td>";
-      html = html + "<td width='33%' height='230'><img src='images/photoCollection/9.jpg' alt='' width='210' height='200'/></td>";
       html = html + "</tr>";
       $("#activeImages").html(html);
+      showImg();
     }
 
     //个人名片
@@ -330,9 +337,27 @@
       html = html + "<tr>";
       html = html + "<td width='33%' height='230'><img src='images/namecard/1.jpg' alt='' width='210' height='200'/></td>";
       html = html + "<td width='33%' height='230'><img src='images/namecard/2.jpg' alt='' width='210' height='200'/></td>";
-      html = html + "<td width='33%' height='230'><img src='images/namecard/3.jpg' alt='' width='210' height='200'/></td>";
+      html = html + "<td width='33%' height='230'></td>";
       html = html + "</tr>";
       $("#activeImages").html(html);
+      showImg();
+    }
+
+    function showImg(){
+      var img = $("#activeImages img");
+        img.each(function() {
+            $(this).click(function() {
+              console.log(1);
+              var src=$(this).attr('src');
+              $(".mask").show();
+              $(".pic").show();
+              $(".pic img").attr("src", src);
+            });
+        });
+        $(".pic span").click(function(){
+          $(".mask").hide();
+          $(".pic").hide();
+        });
     }
 </script>
 </html>
