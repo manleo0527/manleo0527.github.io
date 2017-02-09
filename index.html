@@ -15,10 +15,23 @@
             height: 36px;
         }
         .menu td a{
-            font-size: 18px;
+            font-size: 20px;
         }
-        .menu td a:hover{
-          text-decoration: underline;
+
+        .sel_btn{
+            height: 21px;
+            line-height: 21px;
+            padding: 0 11px;
+            background: #02bafa;
+            border: 1px #26bbdb solid;
+            border-radius: 3px;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 12px;
+            outline: none;
+        }
+        .ch_cls{
+            background: #e4e4e4;
         }
 
     </style>
@@ -38,8 +51,10 @@
           <tr>
               <td><img src="images/banner/middle.jpg" width="100%" height="28" /></td>
           </tr>
+
       </table></td>
   </tr>
+  <tr><td height="15"></td></tr>
 </table>
 <div id="banner" class="banner">
     <div class="page-ul" style="width:300%;">
@@ -78,28 +93,29 @@
             <table width="208" height="20">
               <tr><td></td></tr>
               <tr>
-                <td><a href="javascript:void(0);" onclick="introduction()">公司介绍</a></td>
+                <td><a id="sel_btn1" class="sel_btn ch_cls" href="javascript:void(0);" onclick="introduction()">公司介绍</a></td>
               </tr>
               <tr><td></td></tr>
               <tr>
-                <td><a href="javascript:void(0);" onclick="credentials()">企业资质</a></td>
+                <td><a id="sel_btn2" class="sel_btn ch_cls" href="javascript:void(0);" onclick="credentials()">企业资质</a></td>
               </tr>
               <tr><td></td></tr>
               <tr>
-                <td><a href="javascript:void(0);" onclick="productList()">系列产品</a></td>
+                <td><a id="sel_btn3" class="sel_btn ch_cls" href="javascript:void(0);" onclick="productList()">系列产品</a></td>
               </tr>
               <tr><td></td></tr>
               <tr>
-                <td><a href="javascript:void(0);" onclick="presentation()">展会风采</a></td>
+                <td><a id="sel_btn4" class="sel_btn ch_cls" href="javascript:void(0);" onclick="presentation()">展会风采</a></td>
               </tr>
               <tr><td></td></tr>
               <tr>
-                <td><a href="javascript:void(0);" onclick="photoCollection()">实地采图</a></td>
+                <td><a id="sel_btn5" class="sel_btn ch_cls" href="javascript:void(0);" onclick="photoCollection()">实地采图</a></td>
               </tr>
               <tr><td></td></tr>
               <tr>
-                <td><a href="javascript:void(0);" onclick="namecard()">个人名片</a></td>
+                <td><a id="sel_btn6" class="sel_btn ch_cls" href="javascript:void(0);" onclick="namecard()">个人名片</a></td>
               </tr>
+              <tr><td></td></tr>
             </table>
           </td>
       </tr>
@@ -125,60 +141,7 @@
 
 <td width="738" valign="top">
 <table id="activeImages" width="724" height="230" border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td width="100%" height="100%">
-        <p style="font-size: 20px">    
-          鹏森机械厂坐落于珠三角机械工业重镇佛山市南海区，本厂集研制、生产、销售于一体，专业生产工必利牌纸业，无纺布业，包装业机械刀片和机械设备。
-        </p>
-      </td>
-    </tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr>
-      <td>
-        <p style="font-size: 20px">    
-          本厂自成立以来，以一流的技术，一流的人才，一流的服务为立业之本。凭借雄厚的技术力量，丰富的实践经验，我们秉承“专心、专注、专业”的信条，以“服务企业”为己任，以你的满意就是我们努力的方向为目标，真诚为广大客户提供最佳的解决方案和最完善的服务。在这日新月异的时代，本厂的业务将进一步扩大与深化，鹏森机械愿与所有合作者一起，共同携手迈向辉煌的明天！
-        </p>
-      </td>
-    </tr>
-    <tr><td>&nbsp;</td></tr>
-    <tr>
-      <td width="100%" height="100%">
-        <p style="font-size: 20px">    
-          ——我们致力成为机械刀片和设备行业一流企业
-        </p>
-        <p style="font-size: 20px">    
-          ——我们承诺为客户提供优质的产品和更加快捷的服务
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="100%" height="100%">
-        <p style="font-size: 20px">    
-          PENG SEN Machinery Factory is located in Nanhai District of the Pearl River Delta machinery industrial city Foshan City,the factory collection devolepment,production,sales in one,specializing in the production of the industry will benefit card paper,non-woven cloth,packaging machinery blades and mechanical equipment.
-        </p>
-      </td>
-    </tr>
-
-    <tr><td>&nbsp;</td></tr>
-    <tr>
-      <td width="100%" height="100%">
-        <p style="font-size: 20px">    
-          Since the factory was founded,with first class technology,first class talents,first class services the business foundation.Rely on strong technical force,the practice experience,was are adhering to the tenet of "Concentration,Focus,Profession",take"Service Enterprise" as our resposibilities,take your satisfaction is the goal of our hard working direction,sincerely providing our customers with the best solutions and most perfect service.In this rapidly changing era,the business of the factory will further expand and deepen.Pengsen machinery are willing to work together with all partners,join hands together toward to a bright future!
-        </p>
-      </td>
-    </tr>
-
-    <tr><td>&nbsp;</td></tr>
-    <tr>
-      <td width="100%" height="100%">
-        <p style="font-size: 20px">    
-          ——We strive to be mechanical blade and equipment industries leading enterprise
-        </p>
-        <p style="font-size: 20px">    
-          ——We are commited to providing customers with high quality products and more Efficient service
-        </p>
-      </td>
-    </tr>
+    
 </table>
 
 
@@ -204,6 +167,7 @@
 </body>
 <script src="js/jquery-1.8.0.min.js"></script>
 <script>
+
   (function(){
     var colum_li=$(".colums .colum-li");
     var len = colum_li.length;
@@ -234,15 +198,34 @@
           colum_li.children().removeClass('active');
           colum_li.eq(index).children().addClass('active');
       }
+
+      introduction();
     })();
   
     //公司介绍
     function introduction(){
-      window.location.reload();
+      $("#sel_btn1").addClass("ch_cls");
+      $("#sel_btn2").removeClass("ch_cls");
+      $("#sel_btn3").removeClass("ch_cls");
+      $("#sel_btn4").removeClass("ch_cls");
+      $("#sel_btn5").removeClass("ch_cls");
+      $("#sel_btn6").removeClass("ch_cls");
+      $("#activeImages").html("");
+      var html = "";
+      var html = "<tr><td height='15'></td></tr><tr><td width='100%' height='100%'>";
+      var html = html + "<p style='font-size: 20px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+      var html = html+ "鹏森机械厂坐落于珠三角机械工业重镇佛山市南海区，本厂集研制、生产、销售于一体，专业生产工必利牌纸业，无纺布业，包装业机械刀片和机械设备。</p></td></tr><tr><td height='15'></td></tr><tr><td><p style='font-size: 20px'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本厂自成立以来，以一流的技术，一流的人才，一流的服务为立业之本。凭借雄厚的技术力量，丰富的实践经验，我们秉承“专心、专注、专业”的信条，以“服务企业”为己任，以你的满意就是我们努力的方向为目标，真诚为广大客户提供最佳的解决方案和最完善的服务。在这日新月异的时代，本厂的业务将进一步扩大与深化，鹏森机械愿与所有合作者一起，共同携手迈向辉煌的明天！</p></td></tr><tr><td height='15'></td></tr><tr><td width='100%' height='100%'><p style='font-size: 20px;color: blue'>——我们致力成为机械刀片和设备行业一流企业</p><p style='font-size: 20px;color: blue'>——我们承诺为客户提供优质的产品和更加快捷的服务</p></td></tr><tr><td height='15'></td></tr><tr><td width='100%' height='100%'><p style='font-size: 18px'>PENG SEN Machinery Factory is located in Nanhai District of the Pearl River Delta machinery industrial city Foshan City,the factory collection devolepment,production,sales in one,specializing in the production of the industry will benefit card paper,non-woven cloth,packaging machinery blades and mechanical equipment.</p></td></tr><tr><td height='15'></td></tr><tr><td width='100%' height='100%'><p style='font-size: 18px'>Since the factory was founded,with first class technology,first class talents,first class services the business foundation.Rely on strong technical force,the practice experience,was are adhering to the tenet of “Concentration,Focus,Profession”,take“Service Enterprise” as our resposibilities,take your satisfaction is the goal of our hard working direction,sincerely providing our customers with the best solutions and most perfect service.In this rapidly changing era,the business of the factory will further expand and deepen.Pengsen machinery are willing to work together with all partners,join hands together toward to a bright future!</p></td></tr><tr><td height='15'></td></tr><tr><td width='100%' height='100%'><p style='font-size: 18px'>——We strive to be mechanical blade and equipment industries leading enterprise</p><p style='font-size: 18px'>——We are commited to providing customers with high quality products and more Efficient service</p></td></tr>";
+      $("#activeImages").html(html);
     }
 
     //企业资质
     function credentials(){
+      $("#sel_btn2").addClass("ch_cls");
+      $("#sel_btn1").removeClass("ch_cls");
+      $("#sel_btn3").removeClass("ch_cls");
+      $("#sel_btn4").removeClass("ch_cls");
+      $("#sel_btn5").removeClass("ch_cls");
+      $("#sel_btn6").removeClass("ch_cls");
       $("#activeImages").html("");
       var html = "";
       html = html + "<tr>";
@@ -255,6 +238,12 @@
 
     //系列产品
     function productList(){
+      $("#sel_btn3").addClass("ch_cls");
+      $("#sel_btn2").removeClass("ch_cls");
+      $("#sel_btn1").removeClass("ch_cls");
+      $("#sel_btn4").removeClass("ch_cls");
+      $("#sel_btn5").removeClass("ch_cls");
+      $("#sel_btn6").removeClass("ch_cls");
       $("#activeImages").html("");
       var html = "";
       html = html + "<tr>";
@@ -275,6 +264,12 @@
 
     //展会风采
     function presentation(){
+      $("#sel_btn4").addClass("ch_cls");
+      $("#sel_btn2").removeClass("ch_cls");
+      $("#sel_btn3").removeClass("ch_cls");
+      $("#sel_btn1").removeClass("ch_cls");
+      $("#sel_btn5").removeClass("ch_cls");
+      $("#sel_btn6").removeClass("ch_cls");
       $("#activeImages").html("");
       var html = "";
       html = html + "<tr>";
@@ -296,6 +291,12 @@
 
     //实地采图
     function photoCollection(){
+      $("#sel_btn5").addClass("ch_cls");
+      $("#sel_btn2").removeClass("ch_cls");
+      $("#sel_btn3").removeClass("ch_cls");
+      $("#sel_btn4").removeClass("ch_cls");
+      $("#sel_btn1").removeClass("ch_cls");
+      $("#sel_btn6").removeClass("ch_cls");
       $("#activeImages").html("");
       var html = "";
       html = html + "<tr>";
@@ -318,6 +319,12 @@
 
     //个人名片
     function namecard(){
+      $("#sel_btn6").addClass("ch_cls");
+      $("#sel_btn2").removeClass("ch_cls");
+      $("#sel_btn3").removeClass("ch_cls");
+      $("#sel_btn4").removeClass("ch_cls");
+      $("#sel_btn5").removeClass("ch_cls");
+      $("#sel_btn1").removeClass("ch_cls");
       $("#activeImages").html("");
       var html = "";
       html = html + "<tr>";
